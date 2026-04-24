@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -33,3 +34,40 @@ public class Circle extends Shape {
        
 
 
+=======
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package shape;
+
+/**
+ *
+ * @author GK
+ */
+public class Circle extends Shape {
+        
+       Circle(double radius)
+       {
+           this.value = radius;
+           
+       }
+       
+
+       @Override
+       
+       double calculatearea()
+       {
+           
+           return 3.14 * value * value;
+       }
+       
+}
+
+
+       
+
+       
+
+
+>>>>>>> eb533e48e34a67524e8d02ffe1c61564fa768771
